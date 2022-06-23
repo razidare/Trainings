@@ -121,9 +121,9 @@ ldd $(which bash)
 ```
 Copy dependencies inside jail
 ```
-cp /bin /jail/bin
-cp /lib /jail/lib
-cp /lib64 /jail/lib64
+cp -r /bin /jail/bin
+cp -r /lib /jail/lib
+cp -r /lib64 /jail/lib64
 ```
 Copy bash executable inside jail
 ```
