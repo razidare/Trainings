@@ -1,6 +1,6 @@
 # Official documentation: https://docs.docker.com/engine/reference/builder/
 # Every Dockerfile should start with a FROM keyword
-# The ARG keywork, however can precede FROM in a Dockerfile
+# The ARG keyword, however can precede FROM in a Dockerfile
 
 # minimal image used to install your own OS or single binary:
 #
