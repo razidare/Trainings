@@ -46,7 +46,7 @@ This happens because now, in terminal `T1` you have created and entered a new na
 All you need to do is kill the process that started it all, so just find the PID of the `unshare --user --pid --map-root-user --mount-proc --fork bash`command by using the `ps -ef`output:
 
 ```
-kill <PID of unshare>
+kill -9 <PID of unshare>
 ```
 
 ## <font color=green> :two: cGroups
